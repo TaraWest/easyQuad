@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'MarkerFelt';
+    src: url('font/MarkerFelt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    
+}
+:root {
+    --main-color: #fff;
+    --secondary-color: #15616D;
+    --orange-color: #E25432;
+    --background-boxes: #fff;
+    font-size: 15px;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+    background: linear-gradient(#15616D, #E25432);
+    font-family: 'MarkerFelt';
+    color: var(--main-color);
+}
+
+header {
+    padding: 1rem;
+    background-color: #15616D;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a{
+    color: white;
+    padding-right: 1rem;
+}
+
+nav a:hover {
+    color:#E25432;
+    transition: 200ms;
+}
+
+.logo {
+    background-image: url('./public/logo.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 50px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.description {
+    background-color: var(--secondary-color);
+    display: block;
+    padding: 2rem;
+    margin: 2rem;
+}
