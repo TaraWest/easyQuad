@@ -5,6 +5,11 @@
     font-style: normal;
     
 }
+
+h1, h2, h3, h4 {
+    margin: 1rem;
+}
+
 :root {
     --main-color: #fff;
     --secondary-color: #15616D;
@@ -64,5 +69,16 @@ section {
     background-color: var(--secondary-color);
     display: block;
     padding: 2rem;
-    margin: 2rem;
+}
+
+
+
+
+/*                    RESPONSIVE                   */
+
+
+@media (max-width: 850px){
+    nav {
+        display: none;
+    }
 }
