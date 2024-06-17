@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'MarkerFelt';
-    src: url('font/MarkerFelt.ttf') format('truetype');
+    src: url('../font/MarkerFelt.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     
@@ -18,14 +18,23 @@ h1, h2, h3, h4 {
     font-size: 15px;
   }
   
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.videoContainer {
+    display: contents;
+}
+
+.video {
+    width: 80%;
+    height: 100%;
+}
 
 body{
-    background: linear-gradient(#15616D, #E25432);
+    background: linear-gradient(#E25432,#15616D );
     font-family: 'MarkerFelt';
     color: var(--main-color);
 }
@@ -50,7 +59,7 @@ nav a:hover {
 }
 
 .logo {
-    background-image: url('./public/logo.png');
+    background-image: url('../public/logo.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -74,10 +83,11 @@ section {
 
 
 
+
 /*                    RESPONSIVE                   */
 
 
-@media (max-width: 850px){
+@media (max-width: 750px){
     nav {
         display: none;
     }
