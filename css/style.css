@@ -7,8 +7,13 @@
 }
 
 h1, h2, h3, h4 {
-    margin: 1rem;
+    margin: 3rem;
     font-size: x-large;
+}
+
+p{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 :root {
@@ -85,8 +90,17 @@ section {
     padding: 2rem;
 }
 
+.description2 {
+    background-color: var(--orange-color);
+    display: block;
+    padding: 2rem;
+}
 
-
+footer{
+    background-color: var(--orange-color);
+    height: 15%;
+    margin-top: 9rem;
+}
 
 
 /*                    RESPONSIVE                   */
@@ -95,5 +109,8 @@ section {
 @media (max-width: 750px){
     nav {
         display: none;
+    }
+    *{
+        font-size: x-small;
     }
 }

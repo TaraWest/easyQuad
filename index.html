@@ -2,9 +2,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./public/logo.png">
     <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">    
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/quadCard.css">
+    <link rel="stylesheet" href="./css/tablestyle.css">
     <title>Easy Quad</title>
 </head>
 <body>
@@ -12,42 +14,82 @@
         <header>
             <div class="logo"></div>
             <!-- Retrouver les ancres -->
-            <a href="http://">+33 6.00.00.00.00</a>
-            <a href="http://goole.maps/">Nous trouver</a>
+            <a href="tel:+33765836685">+33 7.65.83.66.85</a>
+            <a href="https://www.google.com/maps/place/Easy+Quad/@45.0594003,1.1667583,17z/data=!4m15!1m8!3m7!1s0x47ff5575e87decb1:0x4d6f70c730798fd7!2sEasy+Quad!8m2!3d45.059387!4d1.166717!10e5!16s%2Fg%2F11w3x7dbnf!3m5!1s0x47ff5575e87decb1:0x4d6f70c730798fd7!8m2!3d45.059387!4d1.166717!16s%2Fg%2F11w3x7dbnf?entry=ttuÒ">Nous trouver</a>
             <nav>
-                <a href="http://">Nos modèles</a>
-                <a href="http://">Nos tarifs</a>
-                <a href="http://">Nos horaires</a>
+                <a href="#modele">Nos modèles</a>
+                <a href="#tarif">Nos tarifs</a>
+                <a href="#horaire">Nos horaires</a>
             </nav>
         </header>
         <section>
-    <h1>Découvrez l'Aventure Électrique en Quad sur Terrain Privé !</h1>
+    <h2>Découvrez l'Aventure  en Quad Électrique ! !</h2>
     <div class="videoContainer">
         <iframe class="video" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-    <h2>Une nouvelle activité à  Montignac-Lascaux</h2>
+    <h1>Une nouvelle activité à Montignac-Lascaux</h1>
     <div class="description">
-        <p>Bienvenue sur notre terrain privatif à Montignac-Lascaux, dédié à la découverte des sensations fortes en toute sécurité avec nos quads électriques ! Offrez à vos enfants une expérience unique et écologique, accompagnés d'un adulte responsable, pour explorer notre parcours spécialement conçu pour leur plaisir et leur sécurité.</p>
+        <p>Bienvenue sur notre terrain privatif à Montignac-Lascaux, dédié à la découverte de sensations nouvelles en toute sécurité avec nos <em>quads</em> électriques ! Accompagnez vos <em>enfants</em> pour une expérience unique et écologique, explorez nos parcours spécialement conçus pour votre plaisir.</p>
     </div>
-    <h2>Mos modèles de Quad à Montignac-Lascaux</h2>
+    <h2 id="modele">Nos modèles de Quad à Montignac - Lascaux</h2>
     <div class="quadCard">
         <div class="quad">
             <h3>Quad Petit Chat</h3>
-            <img class="imgQuad" alt="" srcset="">
-            <p>A qui s'adresse ce quad
-                <br>vitesse
-                <br>Tarif: 6 euros
+            <img class="imgQuad" alt='Photo de notre premier modèle de quad nommé "petit chat"' srcset="./public/petitChat.png">
+            <p>Dès 4 ans, le Petit Chat est idéal pour la découverte en toute sécurité.
+                2 vitesses de limitation, <p>8 ou 16 km/h</p> 
             </p>
         </div>
         <div class="quad">
             <h3>Quad Aventure</h3>
-            <img class="imgQuad" alt="" srcset="">
-            <p>A qui s'adresse ce quad
-                <br>vitesse
-                <br>Tarif: 10 euros
+            <img class="imgQuad" alt='Photo de notre second modele de quad nommé "Aventure"' srcset="./public/aventure.png">
+            <p>Dès 7 ans et sans limite d’âge, un modèle polyvalent pour l’initation ou les sensations fortes. 2 vitesses de limitation, 
             </p>
+            <p>8 ou 25 km/h</p>
         </div>
     </div>
+    <div class="description2">
+        <p>Nos <em>quads électriques</em> sont adaptés pour les enfants et les plus grands, faciles à manier et silencieux. Ils permettent ainsi une immersion totale dans la nature environnante. Sous votre supervision, vos enfants pourront s'initier en sécurité à la conduite tout en profitant d'un cadre naturel.</p>
+    </div>
+
+    <div>
+        <h2>Partagez un moment familial avec vos enfants</h2>
+        <div class="description">
+            <p>De petits circuits d’initiations privatifs sont à votre disposition pour une initiation en toutes sécurité. A votre disposition : </p>
+                <ul>
+                    <li>- des circuits d’initiations  privatifs pour les débutants</li>
+                    <li>- le grand circuit pour plus d’aventure.</li>
+                </ul>
+        </div>
+
+    </div>
+
+
+    <h1 id="tarif">Tarifs</h1>
+    <div class="table-container">
+    <table>
+        <thead>
+            <tr>
+                <th>Modèle</th>
+                <th>10 min</th>
+                <th>20 min</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Quad Petit Chat</td>
+                <td>7 euros</td>
+                <td>10 euros</td>
+            </tr>
+            <tr>
+                <td>Quad Aventure</td>
+                <td>10 euros</td>
+                <td>15 euros</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<p>Le prix inclut le prêt du casque</p>
         </section>
         <footer>
     

@@ -2,6 +2,10 @@
     display: flex;
 }
 .quad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: min-content;
     background-color: var(--secondary-color);
     padding-left: 1rem;
     padding-right: 1rem;
@@ -10,7 +14,27 @@
     border-radius: 3px;
 }
 
+.imgQuad{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30rem;
+}
+
 .quad:hover {
     background-color: var(--orange-color);
-    transition: 1000ms;
+    transition: 1500ms;
+}
+
+@media (max-width: 1000px) {
+    .quadCard{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 500px){
+    .imgQuad{
+        width: 80%;
+    }
 }

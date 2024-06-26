@@ -1,0 +1,22 @@
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    text-align: center;
+}
+
+table {
+    width: 50%;
+    border-collapse: separate;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+@media(max-width: 600px){
+    table {
+        width: 90%
+    }
+}
