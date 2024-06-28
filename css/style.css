@@ -96,10 +96,25 @@ section {
     padding: 2rem;
 }
 
+.location-container{
+    display: flex;
+    max-width: 60%;
+}
+
 footer{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: var(--orange-color);
     height: 15%;
     margin-top: 9rem;
+}
+
+.a_footer{
+    display: block;
+    margin: 1rem;
+    text-decoration: none;
 }
 
 
