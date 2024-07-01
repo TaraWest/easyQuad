@@ -8,6 +8,9 @@
 h1, h2, h3, h4 {
     margin: 3rem 0;
     font-size: x-large;
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 p {
@@ -28,6 +31,7 @@ p {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 body {
@@ -98,14 +102,14 @@ section {
 
 .description {
     background-color: var(--secondary-color);
-    width: 100%;
+    width: 80%;
     display: block;
     padding: 2rem;
 }
 
 .description2 {
     background-color: var(--orange-color);
-    width: 100%;
+    width: 80%;
     display: block;
     padding: 2rem;
 }
@@ -136,7 +140,13 @@ footer {
     nav {
         display: none;
     }
-    * {
-        font-size: x-small;
+    body {
+        font-size: small;
     }
+    header {
+        font-size: small;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
 }
