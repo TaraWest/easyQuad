@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Découvrez Easy Quad à Montignac-Lascaux, une aventure en quad électrique sécurisée pour toute la famille, accessible aux enfants dès 4 ans."
+    />
+    <link rel="icon" type="image/png" href="./public/logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://meyerweb.com/eric/tools/css/reset/reset.css"
+    />
+    <link rel="stylesheet" href="./css/style2.css" />
+    <link rel="stylesheet" href="./css/tablestyle.css" />
+    <link rel="stylesheet" href="./css/quadCard.css" />
+    <title>Easy Quad - Aventure en Quad Électrique</title>
+  </head>
+
+  <body>
+    <div class="mainContainer">
+      <header>
+        <div class="logo"></div>
+        <a href="tel:+33765836685">+33 7.65.83.66.85</a>
+        <a
+          href="https://www.google.com/maps/place/Easy+Quad/@45.0594003,1.1667583,17z/data=!4m15!1m8!3m7!1s0x47ff5575e87decb1:0x4d6f70c730798fd7!2sEasy+Quad!8m2!3d45.059387!4d1.166717!10e5!16s%2Fg%2F11w3x7dbnf!3m5!1s0x47ff5575e87decb1:0x4d6f70c730798fd7!8m2!3d45.059387!4d1.166717!16s%2Fg%2F11w3x7dbnf?entry=ttu"
+          >Nous trouver</a
+        >
+        <nav aria-label="Navigation principale">
+          <a href="#modele">Nos modèles</a>
+          <a href="#tarif">Nos tarifs</a>
+          <a href="#horaire">Nos horaires</a>
+        </nav>
+      </header>
+
+      <section>
+        <h1>Découvrez l'Aventure en Quad Électrique !</h1>
+        <!-- the video container -->
+        <div class="video-container">
+          <button id="play-video" aria-label="Lancer la vidéo de présentation">
+            Lancer la vidéo
+          </button>
+          <iframe
+            src="https://www.youtube.com/embed/5pci8x-9dLk"
+            frameborder="0"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          >
+          </iframe>
+        </div>
+
+        <h2>Une nouvelle activité à Montignac-Lascaux</h2>
+        <div class="description">
+          <p>
+            Bienvenue sur notre terrain privatif à Montignac-Lascaux, dédié à la
+            découverte de sensations nouvelles en toute sécurité avec nos
+            <em>quads</em> électriques ! Accompagnez vos <em>enfants</em> pour
+            une expérience unique et écologique, explorez nos parcours
+            spécialement conçus pour votre plaisir.
+          </p>
+        </div>
+
+        <h2 id="modele">Nos modèles de Quad à Montignac - Lascaux</h2>
+        <div class="quadCard">
+          <div class="quad">
+            <h3>Quad Petit Chat</h3>
+            <img
+              class="imgQuad"
+              alt="Quad Petit Chat, modèle adapté aux enfants dès 4 ans"
+              src="./public/petitChat.png"
+              srcset="
+                ./public/petitChat-small.png   480w,
+                ./public/petitChat-medium.png  800w,
+                ./public/petitChat-large.png  1200w
+              "
+              sizes="(max-width: 600px) 480px, (max-width: 1200px) 800px, 1200px"
+            />
+            <p>
+              Dès 4 ans, le Petit Chat est idéal pour la découverte en toute
+              sécurité. 2 vitesses de limitation, <span>8 ou 16 km/h</span>
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      document
+        .getElementById("play-video")
+        .addEventListener("click", function () {
+          document.getElementById("video-wrapper").style.display = "block";
+          this.style.display = "none";
+        });
+    </script>
+  </body>
+</html>

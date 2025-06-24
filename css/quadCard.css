@@ -1,43 +1,38 @@
 .quadCard {
-    display: flex;
+  display: flex;
 }
 .quad {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: min-content;
-    background-color: var(--secondary-color);
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 1rem;
-    margin: 2rem;
-    border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: min-content;
+  background-color: var(--secondary-color);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  margin: 2rem;
+  border-radius: 3px;
 }
 
-.imgQuad{
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 30rem;
-}
-
-.quad:hover {
-    background-color: var(--orange-color);
-    transition: 1500ms;
+.imgQuad {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 30rem;
 }
 
 @media (max-width: 1000px) {
-    .quadCard{
-        flex-direction: column;
-        align-items: center;
-    }
+  .quadCard {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
-@media (max-width: 500px){
-    .imgQuad{
-        width: 80%;
-    }
-    .quad {
-        width: 100%
-    }
+@media (max-width: 500px) {
+  .imgQuad {
+    width: 80%;
+  }
+  .quad {
+    width: 100%;
+  }
 }

@@ -1,24 +1,25 @@
 .table-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    overflow-x: auto;
-    text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+  text-align: center;
 }
 
 table {
-    width: 50%;
-    border-collapse: separate;
+  width: 50%;
+  border-collapse: separate;
 }
 
-th, td {
-    padding: 12px 15px;
-    text-align: center;
-    border: 1px solid #ccc;
+th,
+td {
+  padding: 12px 15px;
+  text-align: center;
+  border: 1px solid #ccc;
 }
 
-@media(max-width: 600px){
-    table {
-        width: 90%
-    }
+@media (max-width: 600px) {
+  table {
+    width: 90%;
+  }
 }
